@@ -1,0 +1,40 @@
+.mainBox{
+    height: 80vh;
+    margin-top: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainBox h1{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.names{
+    height: 50vh;
+    width: 50vw;
+    margin-bottom: 2rem;
+    overflow-y: scroll;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.names::-webkit-scrollbar{
+    display: none;
+}
+.clear{
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(31, 197, 95);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.clear:hover{
+    box-shadow: 4px 4px 4px black;
+    position: relative;
+    bottom: 2px;
+    background-color: rgb(243, 43, 43);
+}

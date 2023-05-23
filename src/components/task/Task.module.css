@@ -1,0 +1,31 @@
+.mainDiv{
+    margin-top: 2rem;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.inputDiv{
+    top: 3rem;
+}
+
+.listDiv{
+    height: 60vh;
+    width: 50vw;
+    background-color: rgb(197, 214, 165);
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+    padding: 2rem;
+}
+.listDiv::-webkit-scrollbar{
+    display: none;
+}
+.listDiv li{
+    display: flex;
+    gap: 2rem;
+}
